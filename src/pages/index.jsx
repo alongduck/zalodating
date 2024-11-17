@@ -18,7 +18,7 @@ const HomePage = () => {
             onClick={() => navigate("/user")}
             suffix={<Icon icon="zi-arrow-right" />}
           >
-            <div>User</div>
+            <div>Người dùng</div>
           </List.Item>
         </List>
       </div>
