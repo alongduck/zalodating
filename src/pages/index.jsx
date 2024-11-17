@@ -14,12 +14,6 @@ const HomePage = () => {
       <div className="section-container">
         <List>
           <List.Item
-            onClick={() => navigate("/about")}
-            suffix={<Icon icon="zi-arrow-right" />}
-          >
-            <div>About</div>
-          </List.Item>
-          <List.Item
             onClick={() => navigate("/user")}
             suffix={<Icon icon="zi-arrow-right" />}
           >
