@@ -6,6 +6,7 @@ const HomePage = () => {
   const navigate = useNavigate();
   return (
     <Page className="page">
+      <h1>Zalo dating xin chào!</h1>
       <Suspense>
         <div className="section-container">
           <UserCard />
